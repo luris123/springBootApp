@@ -8,8 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.courses.demo.Data.Course;
 import java.util.List;
 
+import javax.annotation.PostConstruct;
+
 @RestController
 public class CourseController {
+
+    @PostConstruct
 
     @GetMapping
     public String hello() {
