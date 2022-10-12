@@ -1,0 +1,7 @@
+POST http://localhost:8080/addcourse
+content-type: application/json
+
+{
+  "name": "Javascript",
+  "description": "Java bad"
+}
